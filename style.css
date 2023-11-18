@@ -1,0 +1,51 @@
+*{
+    margin :0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height : 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.nav_logo{
+    height:50px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    background-size: cover;
+    background-image: url("pictures//amazon_logo.png");
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** For address box**/
+
+.nav_address{
+    align-items: center;
+}
+.add_first{
+    font-size: 0.85rem;
+    margin-left: 15px;
+    color: #cccccc;
+}
+.add_sec{
+    font-size: 1rem;
+    margin-left: 5px;
+    
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
